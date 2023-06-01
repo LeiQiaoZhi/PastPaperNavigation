@@ -112,11 +112,11 @@ h2 {
     flex-wrap: wrap;
     justify-content: flex-start;
     align-items: left;
+    margin-top: 20px;
 }
 
 .paper-section h2 {
     flex-basis: 100%;
-    margin-top: 20px;
     font-size: 24px;
 }
 
