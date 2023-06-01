@@ -126,10 +126,11 @@ document.addEventListener('DOMContentLoaded', function () {
             listItem.addEventListener('click', () => {
                 courseSearch.value = course;
                 suggestionsList.innerHTML = '';
+                courseButton.click();
             });
-            listItem.addEventListener('mouseenter', () => {
-                setSelectedIndex(index);
-            });
+//             listItem.addEventListener('mouseenter', () => {
+//                 setSelectedIndex(index);
+//             });
             suggestionsList.appendChild(listItem);
         });
     }
