@@ -124,6 +124,7 @@ document.addEventListener('DOMContentLoaded', function () {
             const listItem = document.createElement('li');
             listItem.textContent = course;
             listItem.addEventListener('click', () => {
+                console.log("click"+course);
                 courseSearch.value = course;
                 suggestionsList.innerHTML = '';
                 courseButton.click();
