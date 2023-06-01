@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Past Papers Navigation</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <h1>Past Papers Navigation</h1>
+
+    <div class="container">
+        <div class="course-dropdown">
+            <!-- <h2>Select Course:</h2> -->
+            <select id="course-select">
+                <option value="">-- Select a Course --</option>
+                <!-- Add more courses here -->
+            </select>
+        </div>
+        <div class="search-bar">
+            <input type="text" id="course-search" placeholder="Search Course">
+            <ul id="suggestions"></ul>
+            <button id="course-button">Past Papers</button>
+        </div>
+
+        <div class="paper-section">
+            <!-- <h2>Enter Year, Paper, and Question:</h2> -->
+            <input type="number" id="year-input" placeholder="Year">
+            <input type="number" id="paper-input" placeholder="Paper">
+            <input type="number" id="question-input" placeholder="Question">
+            <button id="paper-url-button">Paper</button>
+            <button id="solution-url-button">Solution</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
