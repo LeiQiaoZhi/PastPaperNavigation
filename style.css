@@ -107,6 +107,12 @@ h2 {
     color: #2a2a2a;
 }
 
+hr {
+    border: none;
+    border-top: 2px dashed #ccc;
+    margin: 20px 0;
+  }
+
 .paper-section {
     display: flex;
     flex-wrap: wrap;
