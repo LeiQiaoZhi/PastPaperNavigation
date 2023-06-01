@@ -63,6 +63,8 @@ document.addEventListener('DOMContentLoaded', function () {
     var courseButton = document.getElementById('course-button');
     var courseSearch = document.getElementById('course-search');
     const suggestionsList = document.getElementById('suggestions');
+    
+    courseSearch.focus();
 
 
     for (var i = 0; i < courses.length; i++) {
